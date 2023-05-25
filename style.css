@@ -1,0 +1,26 @@
+.sectionPage {
+  width: 992px;
+  height: 1284px;
+  /*width: 8.5in; height: 11in;*/
+  display: block;
+  margin: 10px auto;
+  border: thin gray solid;
+  background: #F1F1FA;
+  position: relative;
+}
+
+.sectionPage .props{
+  position: absolute;
+  z-index: 10;
+}
+.sectionPage img.imgPage {
+  position: relative;
+  padding: 0;
+  /*
+  height: 100%;
+  width: 100%;
+  */
+  max-height: 100%;
+  max-width: 100%;
+  z-index: 0; 
+}
